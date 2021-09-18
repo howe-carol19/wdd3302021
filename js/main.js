@@ -5,48 +5,42 @@ const links = [
     },
     {
         label: "Week 3",
-        url: "week03/index.html"
-    },
-    {
-        label: "Week 3, part 2",
-        url: "week03/index2.html"
+        url: "week3/index.html"
     },
     {
         label: "Week 4",
-        url: "week04/index.html"
+        url: "week4/index.html"
     },
     {
         label: "Week 5",
-        url: "week05/index.html"
+        url: "week5/index.html"
+    },
+    {
+        label: "Week 6",
+        url: "week6/index.html"
     },
     {
         label: "Week 7",
-        url: "week07/index.html"
+        url: "week7/index.html"
     },
     {
         label: "Week 8",
-        url: "week08/index.html"
+        url: "week8/index.html"
     },
     {
         label: "Week 9",
-        url: "week09/index-START.html"
+        url: "week9/index.html"
     },
     {
         label: "Week 10",
         url: "week10/index.html"
     },
-    {
-        label: "Week 11",
-        url: "week11/public/index.html"
-    },
-    {
-        label: "Main Idex",
-        url: "index.html"
-    }
+   
 ]
+
 function myFunction(){
     var i, text;
-    var ol = document.getElementById("demo");
+    var ol = document.getElementById("links");
     for(i = 0; notes.length; i++){
         var li = document.createElement("li");
         var a = document.createElement("a");
