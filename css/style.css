@@ -1,10 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+
 
 
 body {
     color: #6D8299;
     background-color: #D5BFBF;
-    font-family: 'Amatic SC', cursive;
+    font-family: 'Raleway';
     font-size: 1.5em;
 }
 
