@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Dancing+Script&display=swap');
+
+body {
+    width: 30em;
+    margin: 0 auto;
+    background-color: #d4a5a5;
+    color: #f9ffea;
+    font-family:  Arial, Helvetica, sans-serif;
+    text-align: center;
+    border: 1em solid #c19277;
+    padding: 20px 0;
+
+}
+
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+    
+}
+.tasks {
+    text-align: left;
+    padding: 1em;
+    margin-bottom: 2em;
+}
+span {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-family: 'Amatic SC', cursive;
+}
+span button {
+    height: 30px;
+    margin-top: 2em;
+    background-color: #ffecda;
+    border:  none;
+    color: #5b5b5b;
+    height: 2.5em;
+    width: 7em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    
+}
+span button:hover {
+    background-color: #b67171;
+    border: 3px solid #b68973;
+
+}
+div {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    border-top: 1em solid #b68973;
+}
+.checker {
+    width: 30px;
+    height: 30px;
+    margin: 20px 15px 15px 15px;
+    background-color: #b67171;
+}
+.trash {
+    width: 15px;
+    padding: 5px 4px 4px 5px;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+.trash:hover {
+    border: 1px solid #b68973;
+    border-radius: 5px;
+    background-color: #b68973;
+    color: #1d1f29;
+    padding: 4px 3px 3px 4px;
+}
+
+
+p {
+    font-size: 1.2rem;
+    font-family: 'Amatic SC', cursive;
+}
+div p {
+    margin-top: 1em;
+}
+section {
+    border-bottom: 2em solid #9a8194;
+    font-family: 'Amatic SC', cursive;
+    font-size: 1.5em;
+}
+
+button {
+    font-family: 'Amatic SC', cursive;
+    font-size: 1.5em;
+    margin: 1em;
+    background-color: #c19277;
+}
+
+#inputbox {
+    font-size: 1em;
+    background-color: #f9ffea;
+}
