@@ -32,7 +32,7 @@ const links= [
     },
     {
         label:'Week 7',
-        url: '/week7/index.html',
+        url: 'week7/index.html',
         title: 'Week 7 Link',
     },
     {
