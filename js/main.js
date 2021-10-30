@@ -28,12 +28,12 @@ const links= [
     {
         label: 'Week 6',
         url: 'week6/index.html',
-        title: 'Week 7 Link'
+        title: 'Week 6 Link'
     },
     {
         label:'Week 7',
-        url: '/week7/',
-        title: 'Week 8 Link',
+        url: '/week7/index.html',
+        title: 'Week 7 Link',
     },
     {
         label: 'Week 8',
