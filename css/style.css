@@ -2,13 +2,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
 
 
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
-body {
-    color: #6D8299;
-    background-color: #D5BFBF;
-    font-family: 'Raleway';
-    font-size: 1.5em;
-}
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+  }
+  
+  h1 {
+    background-color: #b67171;
+    padding: 3rem 1rem;
+    text-align: center;
+    font-size: 42px;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-family: 'Dancing Script', cursive;
+  }
+
+
 
 
 a:link {
